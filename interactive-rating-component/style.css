@@ -21,9 +21,10 @@ p, span {
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     background-color: var(--bg-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -135,7 +136,6 @@ body {
 .hidden {
     display: none;
 }
-
 
 @media ( max-width: 450px ) {
     .rating-app, .rating-thank {
