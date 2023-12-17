@@ -1,4 +1,4 @@
-# <img src="" title="Frontend Mentor" alt="Frontend Mentor" width="50" height="50"/> Frontend Mentor - Interactive Rating Component Solution
+# <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" title="Frontend Mentor" alt="Frontend Mentor" width="50" height="50"/> Frontend Mentor - Interactive Rating Component Solution
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 <br>
 
-# Author
+## Author
 
 - Frontend Mentor - [@Linen220](https://www.frontendmentor.io/profile/Linen220)
 - Twitter - [@RondonFernand0](https://twitter.com/RondonFernand0)
