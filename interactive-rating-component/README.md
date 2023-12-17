@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [click here]()
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-Ju5nuM0vxn)
 - Live site URL: [click here](https://linen220-interactive-rating-component.netlify.app/)
 
 <br>
