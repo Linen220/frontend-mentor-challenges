@@ -13,7 +13,7 @@
 <body>
 
   <main>
-    <section class="rating-app">
+    <section id="ratingApp" class="rating-app">
       <img class="star" src="./images/icon-star.svg" alt="star icon">
       <h1 class="title">How did we do?</h1>
       <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
@@ -26,12 +26,13 @@
       </div>
       <button id="btnSubmit" class="btn-submit">SUBMIT</button>
     </section>
-    <!-- <section class="rating-thank">
-      <img src="./images/illustration-thank-you.svg" alt="illustration for thank you">
-      <p class="info">You selected <span id="rating-option"></span> out of 5</p>
+    <section id="ratingThank" class="rating-thank hidden">
+      <img class="thank-you" src="./images/illustration-thank-you.svg" alt="illustration for thank you">
+      <p class="rating-rate">You selected <span id="ratingRate"></span> out of 5</p>
       <h1 class="title">Thank you!</h1>
-      <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
-    </section> -->
+      <p class="thank-you-text">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      <button id="btnReturn" class="btn-return">BACK TO RATING</button>
+    </section>
   </main>
 
   
