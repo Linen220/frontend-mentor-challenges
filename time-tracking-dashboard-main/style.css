@@ -3,7 +3,7 @@
     --bg-color: hsl(226, 43%, 10%);
     --card-color: hsl(235, 46%, 20%);
 
-    --light-red: hsl(15, 100%, 70%);
+    --light-orange: hsl(15, 100%, 70%);
     --soft-blue: hsl(195, 74%, 62%);
     --light-red: hsl(348, 100%, 68%);
     --lime-green: hsl(145, 58%, 55%);
@@ -39,14 +39,14 @@ main {
 
 .report__profile {
     background-color: var(--card-color);
-    border-radius: 10px;
+    border-radius: 15px;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
 
 .report__user {
     background-color: var(--profile);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 25px;
 }
 
@@ -86,3 +86,32 @@ main {
     color: white;
 }
 
+/* CARDS */
+.card__work {
+    background-color: var(--light-orange);
+    border-radius: 15px;
+    overflow: hidden;
+    /* position: relative; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.card__body {
+    background-color: var(--card-color);
+    border-radius: 15px;
+    /* position: relative; */
+    /* top: -30px; */
+    /* height: 100%; */
+}
+
+.img_container img {
+    
+}
+
+/* .card__img {
+    position: absolute;
+    display: block;
+    top: -10px;
+    right: 15px;
+    width: 70px;
+} */
