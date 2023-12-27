@@ -1,0 +1,168 @@
+:root {
+    --bg-color: hsl(257, 40%, 49%);
+    --select-color: hsl(300, 69%, 71%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-color);
+    background-image: url('./images/bg-mobile.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    padding: 30px;
+}
+
+header img {
+    display: block;
+    width: 35vw;
+    cursor: pointer;
+}
+
+main {
+    padding: 0 30px;
+}
+
+.hero__img {
+    display: block;
+    width: 100%;
+}
+
+.hero__info {
+    text-align: center;
+}
+
+.hero__title {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 50px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.hero__text {
+    color: white;
+    font-size: .85rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn-register {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .3);
+    color: var(--bg-color);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 70px;
+    transition: all .3s ease;
+}
+
+.btn-register:hover {
+    background-color: var(--select-color);
+    color: white;
+}
+
+footer {
+    padding: 0 30px 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.social__icon {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.social__icon:hover {
+    color: var(--select-color);
+    border-color: var(--select-color);
+}
+
+
+@media ( min-width: 768px  ) {
+
+    body {
+        background-image: url('./images/bg-desktop.svg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        padding: 30px 40px;
+    }
+
+    header img {
+        width: 13vw;
+    }
+
+    main {
+        padding: 0 40px;
+    }
+
+    .hero {
+        display: flex;
+    }
+
+    .hero__img {
+        width: 50%;
+    }
+
+    .hero__info {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .hero__title {
+        font-size: 3.25rem;
+        margin-top: 30px;
+        line-height: 1.2;
+    }
+
+    .hero__text {
+        font-size: 1.25rem;
+    }
+
+    footer {
+        padding: 0 40px;
+    }
+    
+
+    .social {
+        padding-top: 30px;
+        justify-content: flex-end;
+    }
+
+    .btn-register {
+        padding: 13px 60px;   
+        border-radius: 30px;
+    }
+}

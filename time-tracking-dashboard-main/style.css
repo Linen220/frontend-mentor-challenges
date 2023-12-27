@@ -86,11 +86,14 @@ main {
     color: white;
 }
 
+
 /* CARDS */
 .card__work {
     background-color: var(--light-orange);
     border-radius: 15px;
-    overflow: hidden;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    /* overflow: hidden; */
     /* position: relative; */
     /* display: flex;
     flex-direction: column; */
@@ -99,9 +102,9 @@ main {
 .card__body {
     background-color: var(--card-color);
     border-radius: 15px;
+    height: 100%;
     /* position: relative; */
     /* top: -30px; */
-    /* height: 100%; */
 }
 
 .img_container img {
